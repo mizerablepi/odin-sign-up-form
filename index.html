@@ -26,12 +26,45 @@
     </div>
     <div class="form-body">
       <form action="#">
-        <section>
-          <h3>Let's do this!</h3>
-          <label for="f_name">FIRST NAME
-          <input type="text" name="f_name" id="f_name"></label>
-        </section>
-        <button>Create Account</button>
+        <div class="container">
+          <section>
+            <h3>Let's do this!</h3>
+            <ul>
+              <li>
+                <label for="f_name">
+                  <span>FIRST NAME</span>
+                  <input type="text" name="f_name" id="f_name">
+                </label>
+                <label for="l_name">
+                  <span>LAST NAME</span>
+                  <input type="text" name="l_name" id="l_name">
+                </label>
+              </li>
+              <li>
+                <label for="email">
+                  <span>EMAIL</span>
+                  <input type="email" name="email" id="email">
+                </label>
+                <label for="tel">
+                  <span>PHONE NUMBER</span>
+                  <input type="tel" name="tel" id="tel">
+                </label>
+              </li>
+              <li>
+                <label for="password">
+                  <span>PASSWORD</span>
+                  <input type="password" name="password"  id="password">
+                  <span id = "wrng-p"></span>
+                </label>
+                <label for="password-c">
+                  <span>CONFIRM PASSWORD</span>
+                  <input type="password" name="password-c" id="password-c">
+                </label>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <button type="submit">Create Account</button>
       </form>
     </div>
     <div class="form-footer">

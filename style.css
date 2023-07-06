@@ -13,7 +13,6 @@ body{
 .left-section{
   background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: 100% 100%;
-  background-position-x: center;
   width: max(30%,290px);
   height: max(100vh,590px);
   position: relative;
@@ -53,13 +52,17 @@ body{
 
 .form-header{
   width: 30rem;
-  padding: 5.5rem 0 0rem 2rem;
+  padding: 4.5rem 0 0 2rem;
+}
+
+.container{
+  background-color: white;
+  padding: 1px 0 0 2rem;
+  box-shadow: 0 6px 12px -9px rgb(0 0 0 / 0.5)
 }
 
 section{
-  background-color: white;
-  padding: 1px 0 0 2rem;
-  box-shadow: 0 6px 12px -9px rgb(0 0 0 / 0.2)
+  width: 29rem;
 }
 
 button {
@@ -70,20 +73,16 @@ button {
   color: white;
   font-size: 0.9rem;
   font-weight: bold;
-  margin: 1rem 2rem;
+  margin: 1.5rem 2rem;
 }
 
 .form-footer{
   font-size: 0.9rem;
-  padding: 1rem 0 2rem 2rem;
+  padding: 0 2rem;
 }
 
 .form-footer a {
   color: #596D48;
-}
-
-h3 {
-  font-weight: 500;
 }
 
 label{
@@ -91,11 +90,28 @@ label{
   flex-direction: column;
   font-size: 0.8rem;
   width: 12.5rem;  
+  padding-bottom: 1rem;
 }
 
-input[type='text']{
+input{
   border-radius: 3px;
   border-style: groove;
   border-width: 1px;
   border-color: lightgray;
+  padding: 0.2rem 0.7rem;
+}
+
+li{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+#wrng-p{
+  color: red;
+  padding-bottom: 0.94rem;
 }
