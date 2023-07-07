@@ -8,6 +8,7 @@ body{
   display: flex;
   align-items: stretch;
   height:100vh;
+  min-width: 51rem;
 }
 
 .left-section{
@@ -97,7 +98,7 @@ input{
   border-radius: 3px;
   border-style: groove;
   border-width: 1px;
-  border-color: lightgray;
+  border-color: #E5E7EB;
   padding: 0.2rem 0.7rem;
 }
 
@@ -114,4 +115,10 @@ ul{
 #wrng-p{
   color: red;
   padding-bottom: 0.94rem;
+}
+
+input:focus-visible{
+  border-color: #325eda;
+  outline: none;
+  box-shadow: 1px 1px 5px -2px black;
 }

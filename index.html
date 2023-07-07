@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -32,22 +32,22 @@
             <ul>
               <li>
                 <label for="f_name">
-                  <span>FIRST NAME</span>
-                  <input type="text" name="f_name" id="f_name">
+                  <span>FIRST NAME*</span>
+                  <input type="text" name="f_name" id="f_name" placeholder="John" required>
                 </label>
                 <label for="l_name">
                   <span>LAST NAME</span>
-                  <input type="text" name="l_name" id="l_name">
+                  <input type="text" name="l_name" id="l_name" placeholder="Doe">
                 </label>
               </li>
               <li>
                 <label for="email">
-                  <span>EMAIL</span>
-                  <input type="email" name="email" id="email">
+                  <span>EMAIL*</span>
+                  <input type="email" name="email" id="email" placeholder="email@website.com" required>
                 </label>
                 <label for="tel">
                   <span>PHONE NUMBER</span>
-                  <input type="tel" name="tel" id="tel">
+                  <input type="tel" name="tel" id="tel" placeholder="+91-1234567890">
                 </label>
               </li>
               <li>
